@@ -1,5 +1,4 @@
 import {addDays, endOfWeek, isAfter, startOfWeek} from "date-fns";
-
 function takeDay(date = new Date()) {
     let _date = date;
     return () => {
